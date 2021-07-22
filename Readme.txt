@@ -1,11 +1,11 @@
-Ultima actualizacion 06/04/2021
+# front
 
- Errores en: 
+## Project setup
+```
+npm install
+```
 
-
-  
- Falta:
-
-- Compra put activar y desactivar
-
-- Venta put activar y desactivar
+### Compiles and hot-reloads for development
+```
+node app.js
+```
