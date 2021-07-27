@@ -12,7 +12,7 @@ import persona from '../routes/persona.js';
 class Server{
     constructor(){
         
-        this.port= process.env.PORT
+        this.port= process.env.PORT || 8000
 
         this.app = express();
 
@@ -49,7 +49,7 @@ class Server{
     }
 }
 
-export default Server;
+export {Server}
 
 
 
