@@ -1,5 +1,5 @@
-import Persona from '../models/Persona.js';
-import persona from '../models/Persona.js';
+import Persona from '../models/persona.js';
+import persona from '../models/persona.js';
 
 const personaControllers = {
     personaGet: async (req, res)=>{

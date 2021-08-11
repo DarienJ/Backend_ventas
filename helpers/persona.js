@@ -1,4 +1,4 @@
-import persona from '../models/Persona.js'
+import persona from '../models/persona.js'
 
 const existePersonaID = async (req, res)=>{
     const existe = await persona.findById(id);
